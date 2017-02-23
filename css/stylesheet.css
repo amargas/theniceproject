@@ -1,3 +1,17 @@
 body {
 	background-color: #ADD8E6;
+
 }
+
+p {
+	height: 100%;
+}	
+
+.col-md-4 {
+	height: 700px;
+}
+.row {
+	height: 600px;
+
+}
+
