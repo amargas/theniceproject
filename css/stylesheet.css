@@ -35,7 +35,9 @@ h2 {
 
 #rightcolumn {
 	background: url(http://bensupstairs.com/wp-content/uploads/2016/09/ipyTHdk.jpg);
-	background-size: 1000px 1000px;
+	padding-bottom: 275px;
+  	margin-bottom: -275px;
+  	height: 100%;
 	}		
 	
 .container {
