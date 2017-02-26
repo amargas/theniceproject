@@ -1,40 +1,73 @@
 
 #landing {
-	background-color: #FFFD7C;
+	background-color: #616e82;
 }
 
 #landing > .row {
-	height: 600px;
-}
+	height: 960px;
+	}
 
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 40pt;
+	font-weight: bolder;
+	color: white;
+	padding: 0px 60px 0px 60px;
+	}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30pt;
+	font-weight: bolder;
+	}
+
+#leftcolumn {
+	background: url(http://previews.123rf.com/images/shsphotography/shsphotography1405/shsphotography140500165/28582677-A-low-angle-view-of-colorful-autumn-leaves-on-trees-in-a-forest-Filtered-to-give-retro-faded-look--Stock-Photo.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	}
+
+#kb {
+	background-color: #a4a9b2;
+	color: white;
+	}
+
+#rightcolumn {
+	background: url(http://bensupstairs.com/wp-content/uploads/2016/09/ipyTHdk.jpg);
+	background-size: 1000px 1000px;
+	}		
+	
 .container {
-	padding-top: 60px;
-	background-color: #f2dccb;
-	height: 920px; 
-}
+	padding-top: 15px;
+	background-color: ##a4a9b2;
+	height: 600px; 
+	}
 
 .row {
-	background-color: #FF4B4B;
-}
+	background-color: #a4a9b2;
+	}
 
 #links {
 	background-color: #FFFD7C;
 	color: black;
 	font-family: Helvetica; 
 	font-size: 12px;
-}
+	}
 
 .btn2 {
 	color: black;
 	font-size: 20px;
-	background-color: lightblue;
-}
+	background-color: white;
+	}
 
 .btn1 {
 	color: black;
-	font-size: 20px;
-	background-color: lightblue;
-}
+	font-size: 13px;
+	font-weight: bolder;
+	padding: 10px 15px 10px 15px;
+	background-color: white;
+	}
 
 footer {
 
