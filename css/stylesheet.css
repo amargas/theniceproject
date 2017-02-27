@@ -1,6 +1,7 @@
 
 #landing {
-	background-color: #FFFD7C;
+	background-color: grey;
+	
 }
 
 #landing > .row {
@@ -8,26 +9,45 @@
 }
 
 .container {
-	padding-top: 60px;
-	background-color: #f2dccb;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 30px;
 	height: 920px; 
+	background-size: inherit;
 }
 
-.row {
+
+div.row {
 	background-color: #FF4B4B;
+	height: 550px;
 }
 
+.name {
+	font-size: 70px;
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
 #links {
-	background-color: #FFFD7C;
+	background-color: grey;
 	color: black;
 	font-family: Helvetica; 
 	font-size: 12px;
 }
 
+.btn3 {
+	color: black;
+	font-size: 20px;
+	background: url('https://goo.gl/images/80oEyU');
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
 .btn2 {
 	color: black;
 	font-size: 20px;
-	background-color: lightblue;
+	background: url('https://goo.gl/images/80oEyU');
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .btn1 {
@@ -39,4 +59,22 @@
 footer {
 
 	padding-top: 60px;
+}
+
+input#share {
+	height: 100px;
+	width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align-last: left; 
+}
+
+#placeholder {
+	text-align: center;
+}
+
+input#submit-button {
+	position: right;
 }
